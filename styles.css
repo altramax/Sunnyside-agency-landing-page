@@ -307,7 +307,7 @@
     
 
     .lower-cards{
-        margin-top: -0.2rem;
+        margin-top: -0.3rem;
         display:grid;
         grid-template-columns: repeat(2, 1fr);
     }
