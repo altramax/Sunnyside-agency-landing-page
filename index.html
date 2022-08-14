@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link rel="stylesheet" href="./styles.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="head">
+       <nav class="navigation">
+          <div class="logo">
+            <p>sunnyside</p>
+          </div>
+            <div class="menu">
+                  <img src="./images/hamburger.svg" alt="menu" class="menu-icon">
+                <div class="desktop-menu">
+                  <a href="#" class="link">About</a>
+                  <a href="#" class="link">Services</a>
+                  <a href="#" class="link">Projects</a>
+                  <a href="#" class="link link-special">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+            <h1 class="header-text">WE ARE CREATIVES</h1>
+            <img src="./images/icon-arrow-down.svg" alt="arrow icon">
+        </header>
+      </div>
+  <main class="container">
+    <section class="cards">
+      <div class="card card-reverse">
+            <picture class="card-images">
+                <source srcset="./images/image-transform.jpg" media="(min-width: 768px)" class="pictures">
+                <source srcset="./images/image-transform.jpg" media="(min-width: 1280px)" class="pictures">
+                <img src="images/image-transform.mbl.jpg" alt="an egg" class="pictures">
+            </picture>
+            <div class="card-text">
+                <h2 class="card-text--header">Transform your brand</h2>
+                <p class="card-text--body">We are a full-service agency specializing in helping
+                     brands grow fast. Engage your clients through compelling visuals that do most
+                      of the marketing for you.</p>
+                      <a href="#" class="btn1">LEARN MORE</a>
+            </div>
+      </div>
+      <div class="card">
+             <picture class="card-images margin">
+                <source srcset="images/image-stand-out.jpg" media="(min-width: 768px)" class="pictures">
+                <source srcset="images/image-stand-out.jpg" media="(min-width: 1280px)" class="pictures">
+                <img src="./images/image-stand-out.mbl.jpg" alt="a cup" class="pictures">
+             </picture>
+             <div class="card-text">
+                <h2 class="card-text--header">Stand out to the right audience</h2>
+                <p class="card-text--body">Use a collaborative formula of designers, researchers,
+                     photographers, videographers, and copywriters, we'll build and extend your
+                      brand in digital places.</p>
+                      <a href="#" class="btn2">LEARN MORE</a>
+             </div>
+      </div>
+      <div class="lower-cards">
+        <div class="card-lower">
+              <picture class="card-images">
+                  <source srcset="images/image-graphic-design.jpg" media="(min-width: 768px)" class="pictures">
+                  <source srcset="images/image-graphic-design.jpg" media="(min-width: 1280px)" class="pictures">
+                  <img src="./images/image-graphic-design.mbl.jpg" alt="apples" class="pictures">
+              </picture>
+              <div class="card-text text-margin">
+                  <h2 class="card-text--header">Graphic Design</h2>
+                  <p class="card-text--body"> Great design makes you memorable. We deliver artwork that underscores
+                      your brand message and captures potential clients' attention.
+                  </p>
+              </div>
+        </div>
+        <div class="card-lower">
+              <picture class="card-images">
+                  <source srcset="images/image-photography.jpg" media="(min-width: 768px)" class="pictures">
+                  <source srcset="images/image-photography.jpg" media="(min-width: 1280px)" class="pictures">
+                  <img src="./images/image-photography.mbl.jpg" alt="orange" class="pictures">
+              </picture>
+              <div class="card-text text-margin">
+                  <h2 class="card-text--header">Photography</h2>
+                  <p class="card-text--body">Increase your credibility by getting the most stunning, high-quality
+                      photos that improve your business image.</p>
+              </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+        <h2 class="testimonial-heading">CLIENT TESTIMONIALS</h2>
+          <div id="testimonial-container">
+            <div class="clients-box">
+              <div class="clients">
+                <img src="./images/image-emily.jpg" alt="Emily's picture" class="clients-img">
+              </div>
+              <div class="clients-text">
+                <p class="client-text--body">We put our trust in Sunnyside and they delivered,
+                     making sure our needs were met and deadlines were always hit.</p>
+                     <h3 class="clients-name">Emily R.</h3>
+                     <p class="clients-position">Marketing Director</p>
+              </div>
+            </div>
+            <div class="clients-box">
+                <div class="clients">
+                  <img src="./images/image-thomas.jpg" alt="thomas's picture" class="clients-img">
+                </div>
+                <div class="clients-text">
+                  <p class="client-text--body">Sunnyside's enthusiasm coupled with their keen
+                     interest in our brand's success
+                    made it a satisfying and enjoyable experience.
+                  </p>
+                       <h3 class="clients-name">Thomas S.</h3>
+                       <p class="clients-position">Chief Operating Officer</p>
+                </div>
+              </div>
+              <div class="clients-box">
+                <div class="clients">
+                  <img src="./images/image-jennie.jpg" alt="jennie's picture" class="clients-img">
+                </div>
+                <div class="clients-text">
+                  <p class="client-text--body">Incredible end result! Our sales increased over 400%
+                     when we worked with Sunnyside. Highly recommended!</p>
+                       <h3 class="clients-name">Jennie F.</h3>
+                       <p class="clients-position">Business owner</p>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="images-section">
+        <picture class="picture-images">
+            <source srcset="./images/image-gallery-milkbottles.jpg" media="(min-width: 768px)" class="pictures">
+            <source srcset="./images/image-gallery-milkbottles.jpg" media="(min-width: 1280px)" class="pictures">
+            <img src="./images/image-gallery-milkbottles.mbl.jpg" alt="milk bottle" class="pictures">
+        </picture>
+        <picture class="picture-images">
+            <source srcset="./images/image-gallery-orange.jpg" media="(min-width: 768px)" class="pictures">
+            <source srcset="./images/image-gallery-orange.jpg" media="(min-width: 1280px)" class="pictures">
+            <img src="./images/image-gallery-orange.mbl.jpg" alt="orange" class="pictures">
+        </picture>
+        <picture class="picture-images">
+            <source srcset="./images/image-gallery-cone.jpg" media="(min-width: 768px)" class="pictures">
+            <source srcset="./images/image-gallery-cone.jpg" media="(min-width: 1280px)" class="pictures">
+            <img src="./images/image-gallery-cone.mbl.jpg" alt="cone" class="pictures">
+        </picture>
+        <picture class="picture-images">
+            <source srcset="./images/image-gallery-sugarcubes.jpg" media="(min-width: 768px)" class="pictures">
+            <source srcset="./images/image-gallery-sugarcubes.jpg" media="(min-width: 1280px)" class="pictures">
+            <img src="./images/image-gallery-sugar-cubes.mbl.jpg" alt="sugar cubes" class="pictures">
+        </picture>
+  </section>
+  <footer class="footer">
+        <h1 class="footer-header">sunnyside</h1>
+        <nav class="nav">
+            <span>About</span>
+            <span>Services</span>
+            <span>Projects</span>
+        </nav>
+        <aside class="icons">
+            <img src="./images/icon-facebook.svg" alt="facebook">
+            <img src="./images/icon-instagram.svg" alt="instagram">
+            <img src="./images/icon-twitter.svg" alt="icon-twitter">
+            <img src="./images/icon-pinterest.svg" alt="pinterest">
+        </aside>
+        <p id="challenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/Altramax">Ezekiel Ajayi</a>.</p>   
+    </footer>
+   </main>
+</body>
+</html>

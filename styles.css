@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.head{
+    background-image: url(./images/image-header.mbl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navigation{
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.menu-icon{
+    cursor: pointer;
+}
+
+.desktop-menu{
+    display: none;
+    width: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0 9rem 0;
+}
+
+.header-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5rem;
+    
+}
+
+.pictures{
+    width: 100%;
+}
+
+.card-text{
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+    padding: 0 1.2rem;
+}
+
+.text-margin{
+    margin-top: -15rem;
+}
+
+.card-text--header{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.card-text--body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.18rem ;
+    line-height: 2rem;
+    color: #0000009a;
+}
+
+.btn1, .btn2{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    display: block;
+    width: 9rem;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2rem auto;
+    font-size: 1rem;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    box-shadow: inset 0 -0.5rem 0 0 hsl(51, 100%, 49%);
+}
+
+.btn2:hover{
+    cursor: pointer;
+    box-shadow: inset 0 -0.5rem 0 0 hsl(7, 99%, 70%);
+}
+
+.testimonials{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.testimonial-heading{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    font-size: 1.1rem;
+    color: #0000009f;
+}
+
+.clients-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 3.5rem auto 2.5rem auto;
+}
+
+.clients-text{
+   margin:0 1rem;
+}
+
+.client-text--body{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 2rem; 
+    color: #0000009a;
+
+}
+
+.clients-name{
+    font-family: 'Fraunces', serif;
+    font-weight: 900 ;
+    font-size:  1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.clients-position{
+    color: #0000009f;
+    font-family: 'Fraunces', serif;
+}
+
+.images-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+}
+
+.card-images{
+    margin-top: -0.25rem;
+}
+
+.picture-images{
+    margin-top: -0.25rem;
+}
+
+.footer{
+    text-align: center;
+    margin-top: -0.4rem;
+    background-color: #90d4c5;
+}
+
+.footer-header{
+    color: #2a7262;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.nav{
+    color: #4d9182;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.icons{
+    padding: 4.5rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#challenge, #challenge a{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    color: #203b36;
+    padding: 2rem 0 3rem 0;
+}
+
+@media screen and (min-width:768px) {
+ 
+    .head{
+        background-image: url(./images/image-header.jpg);
+    }
+
+    .header{
+        padding-bottom: 8rem;
+    }
+    
+    .header-text{
+        margin-bottom:2rem;
+        margin-top: -1rem;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    .navigation{
+        padding: 1.5rem 2rem 0 2rem;
+    }
+
+
+    .header{
+        padding-bottom: 15rem;
+    }
+
+    
+    .logo{
+        font-size: 3rem;
+    }
+    
+    .menu{
+        width: 50%;
+    }
+
+    .menu-icon{
+        display: none;
+        width: 0;
+    }
+
+    .desktop-menu, .link{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.1rem;
+        font-weight: 900;
+        color: #ffffff;
+    }
+
+    .link-special{
+        background-color: #ffffff;
+        border-radius: 1rem;
+        padding: 0.5rem 0;
+        color:#000000 ;
+    }
+
+    .link-special:hover{
+        background-color: #6fcfff;
+        color: #ffffff;
+    }
+
+    .header-text{
+        font-size: 3.5rem;
+        margin-bottom:4rem;
+    }
+
+    .card{
+       display: flex;
+       align-items: center;
+    }
+
+    .card-reverse{
+       flex-direction: row-reverse;
+    }
+
+    .card-images{
+        margin-top: 0;
+        width: 50%;
+    }
+
+    .card-text{
+        width: 50%;
+    }
+
+    .text-margin{
+        margin: 0 auto;
+        width: 70%;
+        margin-top: -10.8rem;
+    } 
+
+    .margin{
+        margin-top: -0.25rem;
+    }
+    
+
+    .lower-cards{
+        margin-top: -0.2rem;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #testimonial-container{
+        margin: auto;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clients-img{
+        width: 7rem;
+        height: 7rem;
+    }
+    
+    .clients-text{
+        margin:0;
+        padding-bottom: 2rem;
+    }
+
+    .client-text--body{
+        width: 90%;
+        font-size: 1rem;
+    }
+    
+    .clients-name{
+        font-size:  1rem;
+    }
+
+    .clients-position{
+        font-size: 0.9rem;
+    }
+
+    .images-section{
+        grid-template-columns: repeat(4, 2fr);
+    }
+    
+    .picture{
+        width: 100%;
+    }
+
+    .footer{
+        text-align: center;
+    }
+    .nav{
+        width: 30rem;
+        margin: auto;
+    }
+
+    .nav span:hover{
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+    .icons{
+        margin: auto;
+        width: 20rem;
+    }
+}
